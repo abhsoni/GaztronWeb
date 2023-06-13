@@ -49,10 +49,10 @@ export default function HomePageWelcome() {
       </div>
       <div className="flex flex- col ">
         <div className="flex fixed bottom-24 left-6">
-          <Image src={whatsAppSVG} />
+          <Image src={whatsAppSVG} alt="svg" />
         </div>
         <div className="flex fixed bottom-6 left-6">
-          <Image src={callSVG} />
+          <Image src={callSVG} alt="svg" />
         </div>
       </div>
     </div>

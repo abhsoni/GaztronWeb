@@ -20,7 +20,7 @@ export default function WhatMakesUsDifferent() {
     <div className="flex bg-[#354ED2] px-6 w-screen pt-10 justify-center">
       <div className="flex-col justify-center">
         <div className="flex justify-center">
-          <Image src={starSvg}></Image>
+          <Image src={starSvg} alt="svg"></Image>
         </div>
         <div
           className="flex font-medium justify-center text-white"
@@ -44,7 +44,7 @@ export default function WhatMakesUsDifferent() {
           <div className="flex flex-row justify-between px-24 pt-10">
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg1} />
+                <Image src={svg1} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 Highest Quality
@@ -52,7 +52,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg2} />
+                <Image src={svg2} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 40 Years of Experience
@@ -60,7 +60,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg3} />
+                <Image src={svg3} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 +5.000 Units Produced
@@ -68,7 +68,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg4} />
+                <Image src={svg4} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 High Profile Customers
@@ -78,7 +78,7 @@ export default function WhatMakesUsDifferent() {
           <div className="flex flex-row justify-between px-24 pt-7">
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg5} />
+                <Image src={svg5} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 Customizability
@@ -86,7 +86,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg6} />
+                <Image src={svg6} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 Efficient & Energy-Saving
@@ -94,7 +94,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg7} />
+                <Image src={svg7} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 Fully Automatic
@@ -102,7 +102,7 @@ export default function WhatMakesUsDifferent() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
-                <Image src={svg8} />
+                <Image src={svg8} alt="svg" />
               </div>
               <div className="flex text-white text-xl font-medium pt-4">
                 Fast Start Up

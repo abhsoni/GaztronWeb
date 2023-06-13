@@ -27,7 +27,7 @@ export default function WhiteProductDescriptionComponent() {
         <div className="flex flex-row mt-6">
           <div className="flex">
             <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} />
+              <Image src={rightCheckSvg} width={28} height={28} alt="svg" />
             </div>
           </div>
           <div className="flex text-[#556AD9] font-normal text-sm ">
@@ -41,7 +41,7 @@ export default function WhiteProductDescriptionComponent() {
         <div className="flex flex-row mt-6">
           <div className="flex">
             <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} />
+              <Image src={rightCheckSvg} width={28} height={28} alt="svg" />
             </div>
           </div>
           <div className="flex text-[#556AD9] font-normal text-sm ">

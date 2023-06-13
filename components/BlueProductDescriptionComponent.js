@@ -28,7 +28,7 @@ export default function BlueProductDescriptionComponent() {
         <div className="flex flex-row mt-6">
           <div className="flex">
             <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} />
+              <Image src={rightCheckSvg} width={28} height={28} alt="check" />
             </div>
           </div>
           <div className="flex text-[#ffffff] font-normal text-sm ">
@@ -42,7 +42,7 @@ export default function BlueProductDescriptionComponent() {
         <div className="flex flex-row mt-6">
           <div className="flex">
             <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} />
+              <Image src={rightCheckSvg} width={28} height={28} alt="check" />
             </div>
           </div>
           <div className="flex text-[#ffffff] font-normal text-sm ">

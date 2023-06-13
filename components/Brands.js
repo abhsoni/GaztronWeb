@@ -12,7 +12,7 @@ export default function Brands() {
     <div className="flex bg-[#F9F8FE] px-6 w-screen pt-10 justify-center">
       <div className="flex-col justify-center">
         <div className="flex justify-center">
-          <Image src={handshakeBrandsSVG}></Image>
+          <Image src={handshakeBrandsSVG} alt="svg"></Image>
         </div>
         <div
           className="flex font-medium justify-center"
@@ -24,25 +24,25 @@ export default function Brands() {
           <div class="slider-container">
             <div class="slider animate-slide infinite">
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={heroSVG} />
+                <Image src={heroSVG} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={adityaBirlaSvg} />
+                <Image src={adityaBirlaSvg} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={lgSvg} />
+                <Image src={lgSvg} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={hondaSvg} />
+                <Image src={hondaSvg} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={heroSVG} />
+                <Image src={heroSVG} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={csirSvg} />
+                <Image src={csirSvg} alt="svg" />
               </div>
               <div className="flex border-2 border-[#354ED2] bg-white rounded-xl w-36 h-48 mx-9 place-content-center">
-                <Image src={cffSvg} />
+                <Image src={cffSvg} alt="svg" />
               </div>
             </div>
           </div>
