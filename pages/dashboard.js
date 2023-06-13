@@ -3,7 +3,6 @@ import "../styles/style.css";
 import { useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
-import ChartComponent from "../components/ChartComponent";
 export default function Dashboard() {
   return (
     <div className="container mx-auto px-4 h-screen w-screen">
