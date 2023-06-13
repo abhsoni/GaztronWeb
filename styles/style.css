@@ -1,5 +1,6 @@
+
 .navbarBlueTop{
-    position: absolute;
+    /* position: fixed; */
     width: 100%;
     height: 44px;
     left: 0px;
@@ -147,4 +148,25 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+}
+.slider-container {
+  overflow: hidden;  /* Hide any overflow outside the container */
+  width: 100%;  /* Make the container full-width */
+}
+
+.slider {
+  display: flex;  /* Use flexbox for horizontal layout */
+  animation: slide 20s linear infinite;  /* Apply the animation */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);  /* Start from 0 offset */
+  }
+  50% {
+    transform: translateX(-50%);  /* Translate halfway to the left */
+  }
+}
+.dmSansFont{
+  font-family: 'DM Sans';
 }

@@ -5,9 +5,6 @@ import "tailwindcss/tailwind.css";
 import Image from "next/image";
 import ChartComponent from "../components/ChartComponent";
 export default function Dashboard() {
-  useEffect(() => {
-    document.getElementsByTagName("body")[0].style.backgroundColor = "#F5F5F5";
-  }, []);
   return (
     <div className="container mx-auto px-4 h-screen w-screen">
       <div className="flex flex-row">
@@ -355,9 +352,7 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="flex">
-            <ChartComponent />
-          </div>
+          <div className="flex">{/* <ChartComponent /> */}</div>
         </div>
       </div>
     </div>
