@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import "../styles/style.css";
+import Link from "next/link";
 
 function NavLink({ to, children }) {
   return (
@@ -25,7 +26,7 @@ function MobileNav({ open, setOpen }) {
         </a>
       </div>
       <div className="flex flex-col ml-4">
-        <a
+        <Link
           className="text-xl font-medium my-4"
           href="/about"
           onClick={() =>
@@ -35,8 +36,8 @@ function MobileNav({ open, setOpen }) {
           }
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-xl font-normal my-4"
           href="/contact"
           onClick={() =>
@@ -46,7 +47,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   );

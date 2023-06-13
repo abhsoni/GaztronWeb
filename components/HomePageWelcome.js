@@ -45,7 +45,12 @@ export default function HomePageWelcome() {
         </div>
       </div>
       <div className="flex flex-col basis-1/2">
-        <img src="/public/NitroGenPlantImg.jpg"></img>
+        <Image
+          src="/public/NitroGenPlantImg.jpg"
+          alt="img"
+          width={36}
+          height={36}
+        />
       </div>
       <div className="flex flex- col ">
         <div className="flex fixed bottom-24 left-6">
