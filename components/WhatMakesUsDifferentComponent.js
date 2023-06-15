@@ -14,6 +14,7 @@ import svg8 from "../public/svg8.svg";
 import cffSvg from "../public/cff.svg";
 import hondaSvg from "../public/hondaSvg.svg";
 import csirSvg from "../public/csirSvg.svg";
+import { dm_sans } from "@/app/fonts";
 import Image from "next/image";
 export default function WhatMakesUsDifferent() {
   return (
@@ -23,14 +24,18 @@ export default function WhatMakesUsDifferent() {
           <Image src={starSvg} alt="svg"></Image>
         </div>
         <div
-          className="flex font-medium justify-center text-white"
-          style={{ fontSize: "45px", fontFamily: "DM Sans, sans-serif" }}
+          className={
+            "flex font-medium justify-center text-white " + dm_sans.className
+          }
+          style={{ fontSize: "45px" }}
         >
           What Makes Gaztron Gas Generator Different
         </div>
         <div
-          className="flex justify-center text-white font-normal text-lg text-center px-8"
-          style={{ fontFamily: "DM Sans, sans-serif" }}
+          className={
+            "flex justify-center text-white font-normal text-lg text-center px-8 " +
+            dm_sans.className
+          }
         >
           Since our inception, we have been dedicated to the production of
           on-site gas generators as our core business. With extensive experience
@@ -46,7 +51,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg1} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 Highest Quality
               </div>
             </div>
@@ -54,7 +64,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg2} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 40 Years of Experience
               </div>
             </div>
@@ -62,7 +77,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg3} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 +5.000 Units Produced
               </div>
             </div>
@@ -70,7 +90,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg4} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 High Profile Customers
               </div>
             </div>
@@ -80,7 +105,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg5} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 Customizability
               </div>
             </div>
@@ -88,7 +118,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg6} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 Efficient & Energy-Saving
               </div>
             </div>
@@ -96,7 +131,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg7} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 Fully Automatic
               </div>
             </div>
@@ -104,7 +144,12 @@ export default function WhatMakesUsDifferent() {
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg8} alt="svg" />
               </div>
-              <div className="flex text-white text-xl font-medium pt-4">
+              <div
+                className={
+                  "flex text-white text-xl font-medium pt-4 " +
+                  dm_sans.className
+                }
+              >
                 Fast Start Up
               </div>
             </div>
@@ -113,8 +158,11 @@ export default function WhatMakesUsDifferent() {
         <div className="flex justify-center pt-10 pb-12">
           <button
             type="button"
-            class="flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            style={{ fontFamily: "DM Sans, sans-serif", fontSize: "28px" }}
+            class={
+              "flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " +
+              dm_sans.className
+            }
+            style={{ fontSize: "28px" }}
           >
             Learn More About Us
           </button>

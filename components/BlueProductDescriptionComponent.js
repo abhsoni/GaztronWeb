@@ -1,20 +1,23 @@
 import rightCheckSvg from "../public/rightCheckSvg.svg";
 import Image from "next/image";
 import React from "react";
+import { dm_sans } from "../app/fonts";
 export default function BlueProductDescriptionComponent() {
   return (
     <div className="flex bg-[#354ED2]">
       <div className="flex basis-1/2"></div>
       <div className="flex basis-1/2 flex-col justify-content-center pr-9">
         <div
-          className="flex text-white font-bold text-5xl pt-16"
-          style={{ fontFamily: "DM Sans, sans-serif" }}
+          className={
+            "flex text-white font-bold text-5xl pt-16 " + dm_sans.className
+          }
         >
           01. PSA Nitrogen Generator
         </div>
         <div
-          className="flex text-[#ffffff] font-nedium font-lg pt-6"
-          style={{ fontFamily: "DM+Sans, sans-serif" }}
+          className={
+            "flex text-[#ffffff] font-nedium font-lg pt-6 " + dm_sans.className
+          }
         >
           We specialize in designing and manufacturing top-of-the-line Nitrogen
           Plant Generators that come in different purity levels to suit a
@@ -31,7 +34,11 @@ export default function BlueProductDescriptionComponent() {
               <Image src={rightCheckSvg} width={28} height={28} alt="check" />
             </div>
           </div>
-          <div className="flex text-[#ffffff] font-normal text-sm ">
+          <div
+            className={
+              "flex text-[#ffffff] font-normal text-sm " + dm_sans.className
+            }
+          >
             Gaztron offers a range of Nitrogen Gas Generators that can produce
             nitrogen at flow rates between 1 to 1000 nm3/hr, with varying purity
             levels from 98% to 99.9999%. Our systems are capable of supplying
@@ -45,7 +52,11 @@ export default function BlueProductDescriptionComponent() {
               <Image src={rightCheckSvg} width={28} height={28} alt="check" />
             </div>
           </div>
-          <div className="flex text-[#ffffff] font-normal text-sm ">
+          <div
+            className={
+              "flex text-[#ffffff] font-normal text-sm " + dm_sans.className
+            }
+          >
             Gaztron offers a range of Nitrogen Gas Generators that can produce
             nitrogen at flow rates between 1 to 1000 nm3/hr, with varying purity
             levels from 98% to 99.9999%. Our systems are capable of supplying
@@ -56,15 +67,21 @@ export default function BlueProductDescriptionComponent() {
         <div className="flex flex-row mt-7 mb-12">
           <button
             type="button"
-            class="flex text-white border-[#0030FF] bg-[#68D157] hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            style={{ fontFamily: "DM Sans, sans-serif", fontSize: "28px" }}
+            class={
+              "flex text-white border-[#0030FF] bg-[#68D157] hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " +
+              dm_sans.className
+            }
+            style={{ fontSize: "28px" }}
           >
             Request a quote
           </button>
           <button
             type="button"
-            class="flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            style={{ fontFamily: "DM Sans, sans-serif", fontSize: "28px" }}
+            class={
+              "flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " +
+              dm_sans.className
+            }
+            style={{ fontSize: "28px" }}
           >
             Learn More
           </button>

@@ -7,6 +7,9 @@ import BlueProductDescriptionComponent from '../components/BlueProductDescriptio
 import WhiteProductDescriptionComponent from '../components/WhiteProductDescriptionComponent';
 import WhatMakesUsDifferentComponent from '../components/WhatMakesUsDifferentComponent';
 import HomePageWelcome from '../components/HomePageWelcome';
+import IndustriesWorkedWithComponent from '../components/IndustriesWorkedWithComponent';
+import FAQComponent from '../components/FAQComponent';
+import RequestAQuoteComponent from '../components/RequestAQuoteComponent';
 import '../styles/fonts.css';
 
 // Rest of your component code
@@ -22,6 +25,9 @@ export default function Home() {
       <BlueProductDescriptionComponent/>
       <WhiteProductDescriptionComponent/>
       <WhatMakesUsDifferentComponent/>
+      <IndustriesWorkedWithComponent/>
+      <FAQComponent/>
+      <RequestAQuoteComponent/>
       <Footer/>
     </div>
   )

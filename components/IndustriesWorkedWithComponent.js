@@ -1,25 +1,27 @@
 import React from "react";
-import handshakeBrandsSVG from "../public/handshakeBrands.svg";
+import handAndSettingSvg from "../public/handAndSettingSvg.svg";
 import heroSVG from "../public/heroSvg.svg";
 import adityaBirlaSvg from "../public/AdityaBirla.svg";
 import lgSvg from "../public/LG21.svg";
 import cffSvg from "../public/cff.svg";
 import hondaSvg from "../public/hondaSvg.svg";
 import csirSvg from "../public/csirSvg.svg";
-import { dm_sans } from "../app/fonts";
 import Image from "next/image";
-export default function Brands() {
+import { dm_sans } from "@/app/fonts";
+export default function IndustriesWorkedWithComponent() {
   return (
     <div className="flex bg-[#F9F8FE] px-6 w-screen pt-10 justify-center">
       <div className="flex-col justify-center">
         <div className="flex justify-center">
-          <Image src={handshakeBrandsSVG} alt="svg"></Image>
+          <Image src={handAndSettingSvg} alt="svg"></Image>
         </div>
         <div
-          className={"flex font-medium justify-center " + dm_sans.className}
-          style={{ fontSize: "54px" }}
+          className={
+            "flex font-bold justify-center text-[#556AD9] " + dm_sans.className
+          }
+          style={{ fontSize: "45px" }}
         >
-          Trusted By Brands Across The Globe
+          Industries that we have worked with
         </div>
         <div className="flex">
           <div class="slider-container">

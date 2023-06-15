@@ -17,6 +17,16 @@ module.exports = {
     container: {
       center: true,
     },
+    screens: {
+      mobile: { max: "768px" },
+      // => @media (min-width: 640px) { ... }
+
+      tablet: "768px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1024px",
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   plugins: [],
 };
