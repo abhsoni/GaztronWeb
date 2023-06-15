@@ -45,8 +45,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(1) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
@@ -62,8 +62,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(2) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
@@ -79,8 +79,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(3) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
@@ -96,8 +96,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(4) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
@@ -113,8 +113,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(5) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
@@ -131,8 +131,8 @@ export default function FAQQuestionComponent() {
           className={`answer ${expandedIndexes.includes(6) ? "" : "hidden"}`}
         >
           <p>
-            Drop us an email with your inquiry at info@gaztron.in, and we'll
-            send you a quote.
+            Drop us an email with your inquiry at info@gaztron.in, and
+            we&apos;ll send you a quote.
           </p>
         </div>
       </div>
