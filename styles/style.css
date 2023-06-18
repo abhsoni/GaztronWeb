@@ -167,9 +167,6 @@
     transform: translateX(-50%);  /* Translate halfway to the left */
   }
 }
-.dmSansFont{
-  font-family: 'DM Sans';
-}
 
 /************************Faq Section CSS**********************/
 
@@ -194,6 +191,10 @@
 
 .hidden {
   display: none;
+}
+
+.wordBreakCss{
+  word-break:keep-all;
 }
 
 
