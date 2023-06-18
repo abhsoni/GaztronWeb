@@ -117,7 +117,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-row flex-wrap pt-20 pb-12">
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +
@@ -162,7 +162,7 @@ export default function Footer() {
             Air Dryer
           </div>
         </div>
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +
@@ -193,7 +193,7 @@ export default function Footer() {
             Hydrogen Generator
           </div>
         </div>
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +
@@ -225,7 +225,7 @@ export default function Footer() {
             Air Dryer
           </div>
         </div>
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +
@@ -340,7 +340,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +
@@ -455,7 +455,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col px-12">
+        <div className="flex flex-col px-10">
           <div
             className={
               "flex border-b-2 font-bold text-lg text-white pb-2 " +

@@ -1,11 +1,13 @@
 import { dm_sans } from "@/app/fonts";
 import rightCheckSvg from "../public/rightCheckSvg.svg";
 import Image from "next/image";
+import blueImagesCornerDesign from "../public/blueImagesCornerDesign.svg";
+import NitrogenGenerator from "../public/NitrogenGenerator.jpg";
 import React from "react";
 export default function WhiteProductDescriptionComponent() {
   return (
-    <div className="flex bg-[#F9F8FE]">
-      <div className="flex basis-1/2 flex-col justify-content-center pl-9">
+    <div className="flex bg-[#F9F8FE] mobile:flex-col">
+      <div className="flex basis-1/2 flex-col justify-content-center pl-9 mobile:px-2">
         <div
           className={
             "flex text-[#556AD9] font-bold text-5xl pt-16 " + dm_sans.className
@@ -86,7 +88,26 @@ export default function WhiteProductDescriptionComponent() {
           </button>
         </div>
       </div>
-      <div className="flex basis-1/2"></div>
+      <div className="flex basis-1/2 relative justify-center my-20">
+        <Image
+          src={NitrogenGenerator}
+          width={550}
+          height={550}
+          alt="img"
+          style={{
+            borderRadius: "12px",
+            objectFit: "contain",
+            borderColor: "#354ED2",
+            borderWidth: "6px",
+          }}
+        />
+        <div className="flex absolute right-10 -top-10">
+          <Image src={blueImagesCornerDesign} alt="svg" />
+        </div>
+        <div className="flex absolute left-10 -bottom-10">
+          <Image src={blueImagesCornerDesign} alt="svg" />
+        </div>
+      </div>
     </div>
   );
 }

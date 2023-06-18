@@ -10,17 +10,21 @@ import { dm_sans } from "../app/fonts";
 import Image from "next/image";
 export default function Brands() {
   return (
-    <div className="flex bg-[#F9F8FE] px-6 w-screen pt-10 justify-center">
-      <div className="flex-col justify-center">
-        <div className="flex justify-center">
-          <Image src={handshakeBrandsSVG} alt="svg"></Image>
-        </div>
+    <div className="flex flex-col bg-[#F9F8FE] px-6 py-10 justify-center">
+      <div className="flex justify-center">
+        <Image src={handshakeBrandsSVG} alt="svg"></Image>
+      </div>
+      <div className="flex justify-center wordBreakCss pt-7">
         <div
-          className={"flex font-medium justify-center " + dm_sans.className}
-          style={{ fontSize: "54px" }}
+          className={
+            "flex font-medium justify-center text-5xl text-center text-blue" +
+            dm_sans.className
+          }
         >
           Trusted By Brands Across The Globe
         </div>
+      </div>
+      <div className="flex justify-center pt-10">
         <div className="flex">
           <div class="slider-container">
             <div class="slider animate-slide infinite">

@@ -10,6 +10,7 @@ import HomePageWelcome from '../components/HomePageWelcome';
 import IndustriesWorkedWithComponent from '../components/IndustriesWorkedWithComponent';
 import FAQComponent from '../components/FAQComponent';
 import RequestAQuoteComponent from '../components/RequestAQuoteComponent';
+import TestComponent from '../components/TestComponent';
 import '../styles/fonts.css';
 
 // Rest of your component code
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="container overflow-x-hidden">
       <Navbar /> 
       <HomePageWelcome/>
+      {/* <TestComponent/> */}
       <Brands/>
       <BlueProductDescriptionComponent/>
       <WhiteProductDescriptionComponent/>

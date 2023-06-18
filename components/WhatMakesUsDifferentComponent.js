@@ -18,16 +18,16 @@ import { dm_sans } from "@/app/fonts";
 import Image from "next/image";
 export default function WhatMakesUsDifferent() {
   return (
-    <div className="flex bg-[#354ED2] px-6 w-screen pt-10 justify-center">
+    <div className="flex flex-col bg-[#354ED2] px-6 pt-10 justify-center">
+      <div className="flex justify-center">
+        <Image src={starSvg} alt="svg"></Image>
+      </div>
       <div className="flex-col justify-center">
-        <div className="flex justify-center">
-          <Image src={starSvg} alt="svg"></Image>
-        </div>
         <div
           className={
-            "flex font-medium justify-center text-white " + dm_sans.className
+            "flex font-medium justify-center text-white text-center text-5xl " +
+            dm_sans.className
           }
-          style={{ fontSize: "45px" }}
         >
           What Makes Gaztron Gas Generator Different
         </div>
@@ -46,7 +46,7 @@ export default function WhatMakesUsDifferent() {
           take great pride in.
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between px-24 pt-10">
+          <div className="flex flex-row mobile:flex-col justify-between px-24 pt-10">
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg1} alt="svg" />
@@ -92,7 +92,7 @@ export default function WhatMakesUsDifferent() {
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl font-medium pt-4 text-center " +
                   dm_sans.className
                 }
               >
@@ -100,7 +100,7 @@ export default function WhatMakesUsDifferent() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-between px-24 pt-7">
+          <div className="flex flex-row mobile:flex-col justify-between px-24 pt-7">
             <div className="flex flex-col justify-center items-center">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg5} alt="svg" />
@@ -155,18 +155,18 @@ export default function WhatMakesUsDifferent() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center pt-10 pb-12">
-          <button
-            type="button"
-            class={
-              "flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " +
-              dm_sans.className
-            }
-            style={{ fontSize: "28px" }}
-          >
-            Learn More About Us
-          </button>
-        </div>
+      </div>
+      <div className="flex justify-center pt-10 pb-12">
+        <button
+          type="button"
+          class={
+            "flex text-[#354ED2] border-[#0030FF] bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg px-4 py-2 text-center ml-6 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 " +
+            dm_sans.className
+          }
+          style={{ fontSize: "28px" }}
+        >
+          Learn More About Us
+        </button>
       </div>
     </div>
   );
