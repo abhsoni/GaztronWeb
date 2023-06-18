@@ -7,7 +7,7 @@ import NitrogenGenerator from "../public/NitrogenGenerator.jpg";
 export default function BlueProductDescriptionComponent() {
   return (
     <div className="flex bg-[#354ED2] mobile:flex-col">
-      <div className="flex basis-1/2 relative justify-center my-20">
+      <div className="flex basis-1/2 relative justify-center my-20 mobile:mx-2">
         <Image
           src={NitrogenGenerator}
           width={550}
@@ -25,7 +25,8 @@ export default function BlueProductDescriptionComponent() {
       <div className="flex basis-1/2 flex-col justify-content-center pr-9 mobile:px-2">
         <div
           className={
-            "flex text-white font-bold text-5xl pt-16 " + dm_sans.className
+            "flex text-white font-bold text-5xl pt-16 mobile:pt-2 " +
+            dm_sans.className
           }
         >
           01. PSA Nitrogen Generator
@@ -45,10 +46,8 @@ export default function BlueProductDescriptionComponent() {
           heating systems due to its exceptional purity levels.
         </div>
         <div className="flex flex-row mt-6">
-          <div className="flex">
-            <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} alt="check" />
-            </div>
+          <div className="flex w-28 mr-4 self-start">
+            <Image src={rightCheckSvg} width={28} height={28} alt="check" />
           </div>
           <div
             className={
@@ -63,10 +62,8 @@ export default function BlueProductDescriptionComponent() {
           </div>
         </div>
         <div className="flex flex-row mt-6">
-          <div className="flex">
-            <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} alt="check" />
-            </div>
+          <div className="flex w-28 mr-4 self-start">
+            <Image src={rightCheckSvg} width={28} height={28} alt="check" />
           </div>
           <div
             className={

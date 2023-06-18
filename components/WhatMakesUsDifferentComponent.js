@@ -46,47 +46,47 @@ export default function WhatMakesUsDifferent() {
           take great pride in.
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row mobile:flex-col justify-between px-24 pt-10">
-            <div className="flex flex-col justify-center items-center">
+          <div className="grid grid-rows-2 mobile:grid-rows-4 grid-flow-col gap-4 mobile:gap-1 mobile:flex-col px-24 mobile:px-2 pt-10">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg1} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl text-center font-medium pt-4 " +
                   dm_sans.className
                 }
               >
                 Highest Quality
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg2} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl text-center font-medium pt-4 " +
                   dm_sans.className
                 }
               >
                 40 Years of Experience
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg3} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl text-center font-medium pt-4 " +
                   dm_sans.className
                 }
               >
                 +5.000 Units Produced
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg4} alt="svg" />
               </div>
@@ -99,54 +99,52 @@ export default function WhatMakesUsDifferent() {
                 High Profile Customers
               </div>
             </div>
-          </div>
-          <div className="flex flex-row mobile:flex-col justify-between px-24 pt-7">
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg5} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl font-medium pt-4 text-center " +
                   dm_sans.className
                 }
               >
                 Customizability
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg6} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl font-medium text-center pt-4 " +
                   dm_sans.className
                 }
               >
                 Efficient & Energy-Saving
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg7} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl font-medium text-center pt-4 " +
                   dm_sans.className
                 }
               >
                 Fully Automatic
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center self-start">
               <div className="flex border-2 border-black bg-white rounded-xl w-36 h-48 place-content-center">
                 <Image src={svg8} alt="svg" />
               </div>
               <div
                 className={
-                  "flex text-white text-xl font-medium pt-4 " +
+                  "flex text-white text-xl font-medium text-center pt-4 " +
                   dm_sans.className
                 }
               >
@@ -154,6 +152,9 @@ export default function WhatMakesUsDifferent() {
               </div>
             </div>
           </div>
+          {/* <div className="flex flex-row mobile:flex-col justify-between px-24 pt-7">
+            
+          </div> */}
         </div>
       </div>
       <div className="flex justify-center pt-10 pb-12">

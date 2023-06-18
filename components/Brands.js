@@ -17,7 +17,7 @@ export default function Brands() {
       <div className="flex justify-center wordBreakCss pt-7">
         <div
           className={
-            "flex font-medium justify-center text-5xl text-center text-blue" +
+            "flex font-medium justify-center text-5xl text-center text-black " +
             dm_sans.className
           }
         >

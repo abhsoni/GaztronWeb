@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { dm_sans } from "@/app/fonts";
 import { useState } from "react";
 
 export default function FAQQuestionComponent() {
@@ -13,7 +14,7 @@ export default function FAQQuestionComponent() {
     );
   };
   return (
-    <div className="faq-section pt-12 ">
+    <div className="faq-section py-12 ">
       <div
         className="question rounded-xl bg-white px-5 py-3 relative "
         onClick={() => toggleAnswer(1)}
@@ -37,12 +38,21 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
 
         <div
-          className={`answer ${expandedIndexes.includes(1) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(1) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and
@@ -73,11 +83,20 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
         <div
-          className={`answer ${expandedIndexes.includes(2) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(2) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and
@@ -108,11 +127,20 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
         <div
-          className={`answer ${expandedIndexes.includes(3) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(3) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and
@@ -143,11 +171,20 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
         <div
-          className={`answer ${expandedIndexes.includes(4) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(4) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and
@@ -178,11 +215,20 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
         <div
-          className={`answer ${expandedIndexes.includes(5) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(5) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and
@@ -214,11 +260,20 @@ export default function FAQQuestionComponent() {
             />
           </svg>
         </div>
-        <h3 className="question-title text-xl font-medium">
+        <h3
+          className={
+            "question-title text-xl text-black pr-5 font-medium " +
+            dm_sans.className
+          }
+        >
           How do we obtain a quotation?
         </h3>
         <div
-          className={`answer ${expandedIndexes.includes(6) ? "" : "hidden"}`}
+          className={
+            `text-black answer ${expandedIndexes.includes(6) ? "" : "hidden"}` +
+            " " +
+            dm_sans.className
+          }
         >
           <p>
             Drop us an email with your inquiry at info@gaztron.in, and

@@ -30,10 +30,8 @@ export default function WhiteProductDescriptionComponent() {
           heating systems due to its exceptional purity levels.
         </div>
         <div className="flex flex-row mt-6">
-          <div className="flex">
-            <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} alt="svg" />
-            </div>
+          <div className="flex w-28 mr-4 self-start">
+            <Image src={rightCheckSvg} width={28} height={28} alt="check" />
           </div>
           <div
             className={
@@ -48,10 +46,8 @@ export default function WhiteProductDescriptionComponent() {
           </div>
         </div>
         <div className="flex flex-row mt-6">
-          <div className="flex">
-            <div className="flex w-7 -mt-14 mr-4">
-              <Image src={rightCheckSvg} width={28} height={28} alt="svg" />
-            </div>
+          <div className="flex w-28 mr-4 self-start">
+            <Image src={rightCheckSvg} width={28} height={28} alt="check" />
           </div>
           <div
             className={
@@ -88,7 +84,7 @@ export default function WhiteProductDescriptionComponent() {
           </button>
         </div>
       </div>
-      <div className="flex basis-1/2 relative justify-center my-20">
+      <div className="flex basis-1/2 relative justify-center my-20 mobile:mx-2">
         <Image
           src={NitrogenGenerator}
           width={550}

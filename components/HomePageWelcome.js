@@ -1,7 +1,5 @@
 import React from "react";
-import whatsAppSVG from "../public/whatsApp.svg";
 import NitrogenGenerator from "../public/NitrogenGenerator.jpg";
-import callSVG from "../public/callSvg.svg";
 import n2generatorSvg from "../public/n2generatorSvg.svg";
 import imagesCornerDesign from "../public/imagesCornerDesign.svg";
 import { dm_sans } from "../app/fonts";
@@ -9,9 +7,11 @@ import Image from "next/image";
 export default function HomePageWelcome() {
   return (
     <div className="flex bg-[#354ED2] mobile:flex-col px-6 w-screen">
-      <div className="flex flex-col basis-1/2" style={{ paddingLeft: "52px" }}>
+      <div className="flex flex-col basis-1/2 pl-12 mobile:pl-0">
         <div
-          className={"mt-40 font-medium text-white " + dm_sans.className}
+          className={
+            "mt-40 mobile:mt-28 font-medium text-white " + dm_sans.className
+          }
           style={{ fontSize: "54px" }}
         >
           Welcome to 👋🏻 Gaztron Engineering Private Limited
@@ -53,7 +53,7 @@ export default function HomePageWelcome() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center relative basis-1/2 mt-40 mb-40">
+      <div className="flex justify-center relative basis-1/2 mt-40 mobile:mt-16 mb-40 mobile:mb-72">
         <Image
           src={NitrogenGenerator}
           width={550}
@@ -67,19 +67,19 @@ export default function HomePageWelcome() {
         <div className="flex absolute left-10 -bottom-10">
           <Image src={imagesCornerDesign} alt="svg" />
         </div>
-        <div className="flex absolute -bottom-36 bg-white flex-col justify-center w-9/12 rounded-xl border-white border">
+        <div className="flex absolute -bottom-36 mobile:-bottom-60 bg-white flex-col justify-center w-9/12 mobile:w-full rounded-xl border-white border">
           <div className="flex justify-center pt-2">
             <Image src={n2generatorSvg} alt="svg" />
           </div>
           <div
             className={
-              "flex justify-center text-[#354ED2] font-bold pt-2 text-2xl " +
+              "flex justify-center text-[#354ED2] font-bold text-center pt-2 text-2xl " +
               dm_sans.className
             }
           >
             PSA Nitrogen Generator Plant
           </div>
-          <div className="flex justify-center text-center text-lg font-bold">
+          <div className="flex justify-center text-center text-lg font-bold text-black">
             NITROGEN GAS GENERATOR AVAILABLE UP TO 1000 NM3/HR WITH PURITY UP TO
             99.9998% (2 PPM)
           </div>
@@ -91,14 +91,6 @@ export default function HomePageWelcome() {
           >
             Request a quote
           </div>
-        </div>
-      </div>
-      <div className="flex flex- col ">
-        <div className="flex fixed bottom-24 left-6">
-          <Image src={whatsAppSVG} alt="svg" />
-        </div>
-        <div className="flex fixed bottom-6 left-6">
-          <Image src={callSVG} alt="svg" />
         </div>
       </div>
     </div>
